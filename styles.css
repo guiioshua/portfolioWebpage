@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(38, 38, 38);
+    font-family: Consolas, monaco, monospace;
+}
+h1, h2, h3, h4, h5, h6, b {
+    color: rgb(74, 246, 38);
+}
+p{
+    margin-bottom: 3px;
+    color: white;
+}
+.center{
+    text-align: center;
+}
+
+.container{
+    margin-bottom: 5vh;
+}
+
+section{
+    border-top: 1.5px solid white;
+    border-style: dotted;
+    padding-top: 2vh;
+}
+
+.formacoes{
+    h4{
+        margin-bottom: 1px;
+    }
+    p{
+        font-size: small;
+    }
+    .periodo{
+        color: rgb(216 216 216);
+        font-size: smaller;
+    }
+}
