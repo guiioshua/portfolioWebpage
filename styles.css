@@ -2,13 +2,39 @@ body{
     background-color: rgb(38, 38, 38);
     font-family: Consolas, monaco, monospace;
 }
+
+header{
+    margin-top: 120px;
+}
+
 h1, h2, h3, h4, h5, h6, b {
     color: rgb(74, 246, 38);
 }
+
+a {
+    color: #7cbbff;
+    text-decoration: none !important;
+}
+
+small{
+    font-size: small;
+}
+
+ul{
+    padding: 0px;
+}
+
 p{
     margin-bottom: 3px;
     color: white;
 }
+
+section, footer{
+    border-top: 1.5px solid white;
+    border-style: dotted;
+    padding-top: 2vh;
+}
+
 .center{
     text-align: center;
 }
@@ -17,13 +43,7 @@ p{
     margin-bottom: 5vh;
 }
 
-section{
-    border-top: 1.5px solid white;
-    border-style: dotted;
-    padding-top: 2vh;
-}
-
-.formacoes{
+.listaDeFormacoes, .listaDeProjetos{
     h4{
         margin-bottom: 1px;
     }
@@ -35,3 +55,32 @@ section{
         font-size: smaller;
     }
 }
+#projetos{
+    h2{
+        align-content: center;
+    }
+}
+
+#conhecimentos {
+    img {
+      height: auto;
+      width: 30%;
+    }
+    gap: 10px;
+  }
+  
+  .tecnologia {
+    text-align: center;
+    width: 30%;
+  }
+
+
+ footer>h5{
+    margin-left: 15px;
+ }
+ .contato{
+    background-color:rgba(73, 246, 38, 0.178);
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+ }
