@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,84 +8,132 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
-    <header>
-        <div class="container center">
-            <h1 class="center">Olá, eu sou Guilherme Ioshua Sene</h1>
+
+    <header class="container text-center mt-5">
+        <h1 class="center">Olá, eu sou Guilherme Ioshua Sene</h1>
+        <div class="greenText p-3">
             <p>Tenho 22 anos, moro em São José dos Campos, a cerca de 90km de São Paulo Capital.</p>
-            <p>Possuo gigantesco desejo de me aprofundar na ciência da computação como um todo. Desde o mais baixo nível da interface de compilação entre código e máquina, até as abstrações e ferramentas mais complexas e modernas do processamento de aplicações em microservices, cloud computing etc; a arte de transformar código em soluções através de uma máquina me fascina.</p>
-            <p>Pretendo, neste portfolio, apresentar meus projetos pessoais e acadêmicos, assim como minhas qualificações profissionais.</p>
+            <p>Possuo gigantesco desejo de me aprofundar na ciência da computação como um todo. Desde o mais baixo nível
+                da interface de compilação entre código e máquina, até as abstrações e ferramentas mais complexas e
+                modernas do processamento de aplicações em microservices, cloud computing etc; a arte de transformar
+                código em soluções através de uma máquina me fascina.</p>
+            <p>Pretendo, neste portfolio, apresentar meus projetos pessoais e acadêmicos, assim como minhas
+                qualificações profissionais.</p>
         </div>
     </header>
 
-    <section>
-        <h2 class="center">Educação</h2>
-            <div class="container">
-            
-                <ul class="listaDeFormacoes">
-
-                    <li>
-                        <h4>FATEC - São José dos Campos</h4>
-                        <b>Desenvolvimento de Software Multiplataforma - Tecnólogo</b>
-                        <p class="periodo">Agosto de 2024 - Agosto de 2027 (Previsto)</p>
-                        <p>Por meio do modelo de Project-based Learning, a cada semestre desenvolvemos uma solução de software em grupos através da metodologia ágil Scrum. Cada integrante assume um dos papéis da equipe (P.O, Master, Dev Team) e entrega, em cada sprint mensal, o produto de maior valor possível para o cliente, que pode ser tanto os professores quanto uma empresa real em estudos de case.<br>Com isso, desenvolvemos não somente intensa familiaridade e convivência com as tecnologias vigentes no mercado atual de tecnologia, como também habituação com os frameworks ágeis de trabalho do contexto atual do desenvolvimento de software.</p>
-                    </li>
-
-                </ul>
-
-         </div>
-    </section>
-
-    <section>
-        <h2 class="center">Projetos</h2>
-            <div class="container-fluid" id="projetos">
-                <ul class="listaDeProjetos">
-                    <li class="container-fluid d-flex">
-                        <div>
-                            <h4>
-                                <a href="https://github.com/AgileKrakens/DemoQuerycy">DemoQuerycy</a><small> Link para GitHub</small>
-                            </h4>
-                            <b>Agile Krakens - FATEC</b>
-                            <p class = "periodo">Setembro de 2024 - Novembro de 2024</p>
-                            <p>Atuo como P.O e ajudo no backend do desenvolvimento de uma aplicação Web de consulta, tratamento e interpretação de dados públicos da atuação dos vereadores do último mandato de São José dos Campos.
-                                Meu trabalho enquanto Project Owner tem se desenvolvido, principalmente, em três frentes: a negociação e elicitação dos requisitos com o cliente, junto com o direcionamento da equipe e do Scrum Master para a entrega de maior valor; a elaboração / manutenção / aperfeiçoamento da documentação do projeto; a prototipação do MVP de cada sprint, das features do site e da estruturação do projeto de acordo com a prioridade das dependências, escalabilidade e maior valor para o cliente.</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-    </section>
-
-    <section>
-        <h2 class="center">Conhecimentos</h2>
+    <section id="educacao">
+        <h2 class="text-center">Educação</h2>
         <div class="container">
-        <h5 class="container mb-0">Linguagens e frameworks de programação</h3>
-        <p>Essas são as linguagens e frameworks nos quais estou me desenvolvendo nesse momento na faculdade e que pretendo continuar estudando em minha carreira.
-        </p>
+            <ul class="listaDeFormacoes">
+
+                <li>
+                    <h4>FATEC - São José dos Campos</h4>
+                    <b>Desenvolvimento de Software Multiplataforma - Tecnólogo</b>
+                    <p class="periodo pl-3">Agosto de 2024 - Agosto de 2027 (Previsto)</p>
+                    <p class="greenText p-3">Por meio do modelo de Project-based Learning, a cada semestre desenvolvemos
+                        uma solução de software em grupos através da metodologia ágil Scrum. Cada integrante assume um
+                        dos papéis da equipe (P.O, Master, Dev Team) e entrega, em cada sprint mensal, o produto de
+                        maior valor possível para o cliente, que pode ser tanto os professores quanto uma empresa real
+                        em estudos de case.<br>Com isso, desenvolvemos não somente intensa familiaridade e convivência
+                        com as tecnologias vigentes no mercado atual de tecnologia, como também habituação com os
+                        frameworks ágeis de trabalho do contexto atual do desenvolvimento de software.</p>
+                </li>
+
+            </ul>
+
+        </div>
+    </section>
+
+    <section id="projetos">
+        <h2 class="text-center">Projetos</h2>
+        <div class="container">
+            <ul class="listaDeProjetos">
+                <li class="container-fluid d-flex">
+                    <div>
+                        <h4>
+                            <a href="https://github.com/AgileKrakens/DemoQuerycy">DemoQuerycy</a><small> Link para
+                                GitHub</small>
+                        </h4>
+                        <b>Agile Krakens - FATEC</b>
+                        <p class="periodo pl-3">Setembro de 2024 - Novembro de 2024</p>
+                        <p class="greenText p-3">Atuo como P.O e ajudo no backend do desenvolvimento de uma aplicação
+                            Web de consulta, tratamento e interpretação de dados públicos da atuação dos vereadores do
+                            último mandato de São José dos Campos.
+                            Meu trabalho enquanto Project Owner tem se desenvolvido, principalmente, em três frentes: a
+                            negociação e elicitação dos requisitos com o cliente, junto com o direcionamento da equipe e
+                            do Scrum Master para a entrega de maior valor; a elaboração / manutenção / aperfeiçoamento
+                            da documentação do projeto; a prototipação do MVP de cada sprint, das features do site e da
+                            estruturação do projeto de acordo com a prioridade das dependências, escalabilidade e maior
+                            valor para o cliente.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="conhecimentos">
+        <h2 class="text-center">Conhecimentos</h2>
+        <div class="container">
+            <h5 class="container mb-0">Linguagens e frameworks de programação</h3>
+                <p class="greenText p-2">Essas são as linguagens e frameworks nos quais estou me desenvolvendo nesse momento na faculdade e
+                    que pretendo continuar estudando em minha carreira.</p>
         </div>
         <div class="container d-flex justify-content-between align-items-center flex-wrap" id="conhecimentos">
-            <div class="tecnologia"><p>Java</p><img src="./media/java.png" alt=""><p>Intermediário</p></div>
-            <div class="tecnologia"><p>Python</p><img src="./media/python.png" alt=""><p>Intermediário</p></div>
-            <div class="tecnologia"><p>JavaScript</p><img src="./media/javascript.png" alt=""><p>Iniciante</p></div>
-            <div class="tecnologia"><p>MySQL</p><img src="./media/mysql.png" alt=""><p>Intermediário</p></div>
-            <div class="tecnologia"><p>Django</p><img src="./media/django.png" alt=""><p>Iniciante</p></div>
-            <div class="tecnologia"><p>React</p><img src="./media/react.png" alt=""><p>Iniciante</p></div>
+            <div class="tecnologia">
+                <p>Java</p><img src="./media/java.png" alt="">
+                <p>Intermediário</p>
+            </div>
+            <div class="tecnologia">
+                <p>Python</p><img src="./media/python.png" alt="">
+                <p>Intermediário</p>
+            </div>
+            <div class="tecnologia">
+                <p>JavaScript</p><img src="./media/javascript.png" alt="">
+                <p>Iniciante</p>
+            </div>
+            <div class="tecnologia">
+                <p>MySQL</p><img src="./media/mysql.png" alt="">
+                <p>Intermediário</p>
+            </div>
+            <div class="tecnologia">
+                <p>Django</p><img src="./media/django.png" alt="">
+                <p>Iniciante</p>
+            </div>
+            <div class="tecnologia">
+                <p>React</p><img src="./media/react.png" alt="">
+                <p>Iniciante</p>
+            </div>
         </div>
+
         <div class="container">
-
             <h5 class="container mb-3">Outros conhecimentos</h2>
-            <h6>Metodologias Ágeis</h6>
-            <p>Como já dito na seção sobre meu trabalho como P.O, tenho uma vivência intensa com o framework Scrum no desenvolvimento de software. Sei o papel de cada integrante da equipe Scrum, como as tarefas são pensadas a partir das user stories, o processo de montagem do product backlog, as cerimônias e artefatos que promovem a comunicação e organização entre as partes, etc.</p>
-            <p>Destaco minha leitura do excelente livro "Scrum e Agile em Projetos" de Fábio Cruz que tem me ajudado muito no aprendizado das metodologias ágeis.</p>
-            <h6>Sistemas computacionais</h6>
-            <p>Além de estudante, também sou um grande curioso da ciência da computação de um modo geral. Me interesso muito sobre os assuntos menos óbvios ou "pouco práticos" para o desenvolvedor médio, especialmente na área de sistemas operacionais e redes. Gosto de entender como linhas num editor de texto viram instrulções de hardware, desde a arquitetura dos processadores, pipelines, paralelismo, hierarquias de memória, até os protocolos de comunicação que permitem a internet e suas aplicações nas aplicações modernas em contâineres, plataformas em nuvem etc. Acredito que esse conhecimento mais profundo amplia minha criatividade e controle sobre os meus programas, além de me manter sempre pensando sobre como inovações podem ser feitas.</p>
-
+                <h6>Metodologias Ágeis</h6>
+                <p class="greenText p-3">Como já dito na seção sobre meu trabalho como P.O, tenho uma vivência intensa
+                    com o framework Scrum no desenvolvimento de software. Sei o papel de cada integrante da equipe
+                    Scrum, como as tarefas são pensadas a partir das user stories, o processo de montagem do product
+                    backlog, as cerimônias e artefatos que promovem a comunicação e organização entre as partes, etc.
+                    Destaco minha leitura do excelente livro "Scrum e Agile em Projetos" de Fábio Cruz que tem me
+                    ajudado muito no aprendizado das metodologias ágeis.
+                </p>
+                <h6>Sistemas computacionais</h6>
+                <p class="greenText p-3">Além de estudante, também sou um grande curioso da ciência da computação de um
+                    modo geral. Me interesso muito sobre os assuntos menos óbvios ou "pouco práticos" para o
+                    desenvolvedor médio, especialmente na área de sistemas operacionais e redes. Gosto de entender como
+                    linhas num editor de texto viram instrulções de hardware, desde a arquitetura dos processadores,
+                    pipelines, paralelismo, hierarquias de memória, até os protocolos de comunicação que permitem a
+                    internet e suas aplicações nas aplicações modernas em contâineres, plataformas em nuvem etc.
+                    Acredito que esse conhecimento mais profundo amplia minha criatividade e controle sobre os meus
+                    programas, além de me manter sempre pensando sobre como inovações podem ser feitas.</p>
 
         </div>
+
     </section>
 
     <footer>
-        <h5>Contato</h5>
+        <h5 class="text-center">Contato</h5>
         <nav class="container-fluid d-flex flex-column">
             <a class="contato" href="https://www.linkedin.com/in/guilherme-ioshua-sene/">LinkedIn</a>
             <a class="contato" href="https://www.github.com/guiioshua">GitHub</a>
@@ -93,4 +142,5 @@
     </footer>
 
 </body>
+
 </html>
